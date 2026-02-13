@@ -2,6 +2,10 @@
 
 A comprehensive, interactive dashboard for analyzing e-commerce sales performance, built with Streamlit and Plotly. This dashboard provides deep insights into sales, profitability, customer behavior, shipping performance, and time-based trends.
 
+## 🌐 Live Demo
+
+Access the dashboard at: [https://e-commerce-sales-analytics-dashboard-iki.streamlit.app](https://e-commerce-sales-analytics-dashboard-iki.streamlit.app)
+
 ---
 
 ## 🎯 Purpose
