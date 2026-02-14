@@ -1340,7 +1340,7 @@ class Chart(Data):
 
         top_products = product_data.groupby('category_name').apply(
             lambda x: x.nlargest(5, 'sales_per_order')
-        ).reset_index(drop=True)
+        ).reset_index(level=0)
 
         category_totals = self.filtered_df.groupby('category_name').agg({
             'sales_per_order': 'sum',
